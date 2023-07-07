@@ -149,7 +149,7 @@ earthquake['occurred_on'] = pd.to_datetime(earthquake['occurred_on'])
 earthquake.info()      # occurred_on column successfully converted to datetime format.
 
 
-# #### 2. Extracting date, year, month_name and time columns from the 'occurred_on' coulmn.
+# #### 2. Extracting date, year, month_name and time columns from the 'occurred_on' column.
 
 # In[11]:
 
