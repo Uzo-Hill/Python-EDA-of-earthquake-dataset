@@ -60,13 +60,27 @@ The analysis is performed using the following tools and libraries:
 3.	Data Exploration
 +	Examined the total number of earthquake recorded within the time.
 +	Analyzed the number earthquakes occurrence by year by plotting a horizontal bar graph of the number of earthquakes over year.
+
+![](https://github.com/Uzo-Hill/Python-EDA-of-earthquake-dataset/blob/main/earthquake_year.PNG)
+
 +	Investigated the relationship between earthquake magnitudes and depths using a scatter plot.
+
+![](https://github.com/Uzo-Hill/Python-EDA-of-earthquake-dataset/blob/main/Correlation%20magnitude%20and%20depth.PNG)
+
 +	Fetched record from the dataset for the 10 largest earthquakes. 
 +	Examined the count of each category of earthquake using the Seaborn count plot.
+
+![](https://github.com/Uzo-Hill/Python-EDA-of-earthquake-dataset/blob/main/earthquake_category.PNG)
+
 +	Analyzed for the distinct cause of the earthquakes.
+
+![](https://github.com/Uzo-Hill/Python-EDA-of-earthquake-dataset/blob/main/earthquake_cause.PNG)
+
 +	Analyzed the distribution of the earthquakes by regions of the world.
+
+![](https://github.com/Uzo-Hill/Python-EDA-of-earthquake-dataset/blob/main/earthquake_by_region.PNG)
 >
-Results and Findings
+## Results and Findings
 >
 The analysis of the earthquake dataset revealed the following insights:
 +	A total of 23119 earthquakes of magnitude 5.5 and greater were recorded between the years 1969-2018.
@@ -78,7 +92,8 @@ The analysis of the earthquake dataset revealed the following insights:
 +	Year 2011 has the highest number of earthquake occurrence with a record of 713 earthquakes. Generally, the number of earthquakes was found to have increased over the years, with some fluctuations. However, this could be due to advancements in seismic monitoring technology and increased reporting rather than an actual increase in earthquake frequency.
 +	Geographically, we found that earthquakes are not evenly distributed around the world. Certain Oceania regions, such as Vanuatu, Fiji region, Tonga, Papua New Guinea, Solomon Island and Asian regions such as Japan, Indonesia experienced a higher concentration of seismic activity. This information can be crucial for disaster preparedness and risk assessment in vulnerable areas.
 
-Conclusion
+## Conclusion
+>
 This python exploratory data analysis project has provided valuable insights into the earthquake dataset of magnitude 5.5+ and spanning from 1969 to 2018. By leveraging Python's libraries such as pandas, numpy, matplotlib, seaborn and the Jupyter notebook, we were able to gain a deeper understanding of the seismic activity during this extensive time period.
 
 This earthquake dataset project serves as a foundation for further investigations, such as predictive modeling or advanced statistical analyses. By continuing to explore and analyze earthquake datasets, we can make significant strides in mitigating the impact of earthquakes and ensuring the safety and well-being of communities worldwide. Also, further research could be conducted to explore other relationships such as geological phenomena, climate factors, or other external variables in more detail.
